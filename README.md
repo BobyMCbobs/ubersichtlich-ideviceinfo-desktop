@@ -1,3 +1,9 @@
+macOS Sierra (10.12) tested.
+
+make sure that SIP (System Integrity Protection) is disabled before the installation of this product.
+then you should re-enable it after
+
+=======================================================================================================================
 
 First get homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
