@@ -7,7 +7,7 @@ then you should re-enable it after
 
 First get homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Then install libimobiledevice: brew install -s —HEAD libimobiledevice ideviceinstaller
+Then install libimobiledevice: brew install -s --HEAD libimobiledevice ideviceinstaller
 
 Then copy ideviceinfo to the right place: sudo cp /usr/local/Cellar/libimobiledevice/*/bin/ideviceinfo /usr/bin/
 
