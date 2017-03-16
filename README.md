@@ -7,7 +7,7 @@ You might need to disable SIP (System Integrity Protection) before step 4 is run
 
 1) get homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-2) After homebrew is installed, you’ll need to install OSXFuse via ‘brew cast install osxbuse’
+2) After homebrew is installed, you’ll need to install OSXFuse via ‘brew cast install osxfuse’
 
 3) Then install libimobiledevice: ‘brew install -s --HEAD libimobiledevice ideviceinstaller’
 
