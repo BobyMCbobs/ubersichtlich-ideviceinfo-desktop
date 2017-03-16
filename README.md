@@ -1,19 +1,21 @@
 macOS Sierra (10.12) tested.
 
-make sure that SIP (System Integrity Protection) is disabled before the installation of this product.
-then you should re-enable it after
+You might need to disable SIP (System Integrity Protection) before step 4 is run.
+(If you do disable it, make sure to enable it again after you’ve finished)
 
-=======================================================================================================================
+==========================================================================================
 
-First get homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1) get homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Then install libimobiledevice: brew install -s --HEAD libimobiledevice ideviceinstaller
+2) After homebrew is installed, you’ll need to install OSXFuse via ‘brew cast install osxbuse’
 
-Then copy ideviceinfo to the right place: sudo cp /usr/local/Cellar/libimobiledevice/*/bin/ideviceinfo /usr/bin/
+3)Then install libimobiledevice: brew install -s --HEAD libimobiledevice ideviceinstaller
 
-Then download übersicht from http://tracesof.net/uebersicht/ and place it in /Applications
+4) Then copy ideviceinfo to the right place: sudo cp /usr/local/Cellar/libimobiledevice/*/bin/ideviceinfo /usr/bin/
 
-Then place the widget in /Users/YOUR USER/Library/Application Support/Übersicht/widgets/ make sure they are unzipped
+5)Then download übersicht from http://tracesof.net/uebersicht/ and place it in /Applications
+
+6)Then place the widget in /Users/YOUR USER/Library/Application Support/Übersicht/widgets/ make sure they are unzipped
 
 
 
